@@ -169,6 +169,7 @@ a {
   font-weight: 700;
   border: 1px solid transparent;
   transition: 0.2s ease;
+  text-align: center;
 }
 
 .btn-primary {
@@ -283,7 +284,7 @@ a {
 }
 
 .section-heading {
-  max-width: 760px;
+  max-width: 900px;
   margin-bottom: 30px;
 }
 
@@ -298,12 +299,13 @@ a {
 .section-intro {
   margin: 0;
   color: var(--muted);
+  max-width: 900px;
 }
 
 .two-column,
 .video-layout {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1.45fr 0.75fr;
   gap: 28px;
   align-items: start;
 }
@@ -313,7 +315,8 @@ a {
 .fit-box,
 .step,
 .offer-box,
-.cta-box {
+.cta-box,
+.booking-box {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -323,7 +326,8 @@ a {
 .info-panel,
 .fit-box,
 .offer-box,
-.cta-box {
+.cta-box,
+.booking-box {
   padding: 26px;
 }
 
@@ -397,7 +401,7 @@ a {
 .video-embed {
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 62%;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -413,7 +417,9 @@ a {
   display: block;
 }
 
-.offer-section .offer-box {
+.offer-section .offer-box,
+.booking-box,
+.cta-box {
   text-align: center;
 }
 
@@ -462,12 +468,12 @@ a {
   color: var(--muted);
 }
 
-.cta-box {
-  text-align: center;
-}
-
 .center-actions {
   justify-content: center;
+}
+
+.booking-section {
+  padding-top: 0;
 }
 
 .site-footer {
